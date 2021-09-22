@@ -1,0 +1,133 @@
+//Changelog is up to date as of 9/22/2021
+
+0.0.1
+-Modelled missile tubes for player ship
+-Missiles use player velocity when launching
+-Added bridge view
+-Missiles can now target components
+-Added turrets to enemy targets
+-Added remains when something is destroyed
+-Added svg file to track file structure
+-Turned turrets into child actor instead of spawning
+-Turrets now track based on IFF
+-Modelled missiles
+-Added ui to show combined velocity
+-Missiles avoid player when shot from player
+-Added ship movement
+-Moved brakes to better binding
+
+====================================================================
+//Changelog is up to date as of 9/22/2021
+
+0.0.1
+-Modelled missile tubes for player ship
+-Missiles use player velocity when launching
+-Added bridge view
+-Missiles can now target components
+-Added turrets to enemy targets
+-Added remains when something is destroyed
+-Added svg file to track file structure
+-Turned turrets into child actor instead of spawning
+-Turrets now track based on IFF
+-Modelled missiles
+-Added ui to show combined velocity
+-Missiles avoid player when shot from player
+-Added ship movement
+-Moved brakes to better binding
+
+====================================================================
+//Changelog is up to date as of 9/22/2021
+
+0.0.1
+-Modelled missile tubes for player ship
+-Missiles use player velocity when launching
+-Added bridge view
+-Missiles can now target components
+-Added turrets to enemy targets
+-Added remains when something is destroyed
+-Added svg file to track file structure
+-Turned turrets into child actor instead of spawning
+-Turrets now track based on IFF
+-Modelled missiles
+-Added ui to show combined velocity
+-Missiles avoid player when shot from player
+-Added ship movement
+-Moved brakes to better binding
+
+====================================================================
+//Changelog is up to date as of 9/22/2021
+
+0.0.1
+-Modelled missile tubes for player ship
+-Missiles use player velocity when launching
+-Added bridge view
+-Missiles can now target components
+-Added turrets to enemy targets
+-Added remains when something is destroyed
+-Added svg file to track file structure
+-Turned turrets into child actor instead of spawning
+-Turrets now track based on IFF
+-Modelled missiles
+-Added ui to show combined velocity
+-Missiles avoid player when shot from player
+-Added ship movement
+-Moved brakes to better binding
+
+====================================================================
+//Changelog is up to date as of 9/22/2021
+
+0.0.1
+-Modelled missile tubes for player ship
+-Missiles use player velocity when launching
+-Added bridge view
+-Missiles can now target components
+-Added turrets to enemy targets
+-Added remains when something is destroyed
+-Added svg file to track file structure
+-Turned turrets into child actor instead of spawning
+-Turrets now track based on IFF
+-Modelled missiles
+-Added ui to show combined velocity
+-Missiles avoid player when shot from player
+-Added ship movement
+-Moved brakes to better binding
+
+====================================================================
+//Changelog is up to date as of 9/22/2021
+
+0.0.1
+-Modelled missile tubes for player ship
+-Missiles use player velocity when launching
+-Added bridge view
+-Missiles can now target components
+-Added turrets to enemy targets
+-Added remains when something is destroyed
+-Added svg file to track file structure
+-Turned turrets into child actor instead of spawning
+-Turrets now track based on IFF
+-Modelled missiles
+-Added ui to show combined velocity
+-Missiles avoid player when shot from player
+-Added ship movement
+-Moved brakes to better binding
+
+====================================================================
+//Changelog is up to date as of 9/22/2021
+
+0.0.1
+-Modelled missile tubes for player ship
+-Missiles use player velocity when launching
+-Added bridge view
+-Missiles can now target components
+-Added turrets to enemy targets
+-Added remains when something is destroyed
+-Added svg file to track file structure
+-Turned turrets into child actor instead of spawning
+-Turrets now track based on IFF
+-Modelled missiles
+-Added ui to show combined velocity
+-Missiles avoid player when shot from player
+-Added ship movement
+-Moved brakes to better binding
+
+====================================================================
