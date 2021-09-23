@@ -11,12 +11,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<style>
-		object
-		{
-			background-color: hsl(210, 100%, 50%);
-		}
-		</style>
 	</head>
 	<body class="is-preload">
 				<!-- Header -->
@@ -33,9 +27,37 @@
 									<span class="image fit"><img src="images/pic04.jpg" alt="" /></span>
 								</div>
 
-								<div style="margin-left:auto; margin-right:auto; text-align:center">
+								<div style="margin-left:auto; margin-right:auto; text-align:Center;">
 									<h2 class="minor">Changelog ver. 0.01</h2>
-									<object data="changelog.txt", width = "1000", height = "1000"></object>
+									<p style = "margin-left:100px; white-space: pre; text-align:left;">#Changelog
+All notable changes to this project will be documented in this file
+
+The format is based on Keep a Changelog
+
+## 0.0.1 - 9/22/2021
+
+###Added
+-Modelled missile tubes for player ship
+-Added bridge view
+-Added turrets to enemy targets
+-Added remains when something is destroyed
+-Added svg file to track file structure
+-Modelled missiles
+-Added ui to show combined velocity
+-Added ship movement
+
+###Changed
+-Turned turrets into child actor instead of spawning
+-Turrets now track based on IFF
+-Missiles can now target components
+-Missiles use player velocity when launching
+-Moved brakes to better binding
+-Missiles avoid player when shot from player
+
+###Removed
+
+========================================================================================
+									</p>
 								</div>
 							</section>
 						</div>
