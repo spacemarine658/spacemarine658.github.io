@@ -1,4 +1,4 @@
-#Changelog 
+#Changelog
 All notable changes to this project will be documented in this file
 
 The format is based on Keep a Changelog
@@ -14,6 +14,8 @@ The format is based on Keep a Changelog
 -Modelled missiles
 -Added ui to show combined velocity
 -Added ship movement
+-added missile tubes
+-missile tubes have basic anim
 -Player ship inputs now locked to prevent collision with own missiles
 
 ###Changed
@@ -23,6 +25,8 @@ The format is based on Keep a Changelog
 -Missiles use player velocity when launching
 -Moved brakes to better binding
 -Missiles avoid player when shot from player
+-Missiles launch in salvos from tubes
+-Reworked brakes to work more like engines
 
 ###Removed
 
