@@ -60,11 +60,13 @@ The format is based on Keep a Changelog
 -Added remains when something is destroyed
 -Added svg file to track file structure
 -Modelled missiles
--Added ui to show combined velocity
+-Added ui to show combined velocity and braking
 -Added ship movement
 -added missile tubes
 -missile tubes have basic anim
 -Player ship inputs now locked to prevent collision with own missiles
+-added railguns they track player mouse
+-added rotational and directional impulse when railguns fire
 
 ###Changed
 -Turned turrets into child actor instead of spawning
@@ -75,6 +77,9 @@ The format is based on Keep a Changelog
 -Missiles avoid player when shot from player
 -Missiles launch in salvos from tubes
 -Reworked brakes to work more like engines
+
+###Bug-fixes
+-child actors now sit attached properly
 
 ###Removed
 
