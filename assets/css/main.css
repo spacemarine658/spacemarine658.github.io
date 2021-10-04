@@ -4002,3 +4002,5 @@ input, select, textarea {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+.ignore-css{all:unset;}
