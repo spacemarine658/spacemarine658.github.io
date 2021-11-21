@@ -3,7 +3,7 @@ All notable changes to this project will be documented in this file
 
 The format is based on Keep a Changelog
 
-## 0.0.3 - 11/20/2021
+## 0.03 - 11/20/2021
 
 ###Added
 -Created basic UI layout
@@ -41,7 +41,7 @@ The format is based on Keep a Changelog
 
 ==========================================================================
 
-## 0.0.2 - 10/18/2021
+## 0.02 - 10/18/2021
 
 ###Added
 -Ship systems now rely on working nodes which can be turned on and off
@@ -65,7 +65,7 @@ crew efficiency and type of missile
 
 ==========================================================================
 
-## 0.0.1 - 9/22/2021
+## 0.01 - 9/22/2021
 
 ###Added
 -Modelled missile tubes for player ship
