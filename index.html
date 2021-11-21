@@ -39,34 +39,66 @@
 All notable changes to this project will be documented in this file
 
 The format is based on Keep a Changelog
+
+## 0.0.3 - 11/20/2021
+
+###Added
+-Created basic UI layout
+-Created basic Docking UI for refueling
+-Added new missile type: Grazers
+-Added ability for AI to chase player down
+-Added ability for AI to follow patrol routes
+-Added node system (needs expansion)
+-Added vent system for Ships
+-AI faces player with slight offset to make aiming at player easier
+-Added AI railguns which can fire at the player
+-Added AI railguns to a child blueprint for testing
+-Integrated Linux toolchain into workflow so that Linux can be officially supported
+-Added the ability for AI to fire missiles at Player
+-Added fuel limits to missiles
+-Added fuel system to player's ship
+
+###Changed
+-AI now return to patrol if they had one if they lose track of player for long enough
+-Missiles can now switch from component targeting to targeting hull if no components exist
+-Reworked detection time to include thermal output so a powered down ship could more easily slip by an enemy ship undetected
+-Debris of destroyed ships now faces the direction it the ship was originally facing
+-Updated Unreal engine to 4.27
+-Player can now take damage from AI Missiles
+-Reworked fuel burning (will need more balancing)
+-Smoothed braking
+-Reworked missile intelligence
+
+###Bug-fixes
+-Bug #6: Venting while thrusting would speed up venting has been fixed
+-Bug #5: PDC will no longer shoot through their host ship to kill Missiles
+-Bug #4: Missiles were throwing error after changes to AI ships were made now working correctly
+-Bug #3: Attempting to fire missiles while reloading no longer breaks the cycle
+-Bug #2: Bug causing player to be unable to fire while braked and at a stop fixed
+
+==========================================================================
+
 ## 0.0.2 - 10/18/2021
 
 ###Added
 -Ship systems now rely on working nodes which can be turned on and off
 -Keys are now set in bindings instead of hardcoded this will make changing
-keybinds easier
+key bindings easier
 -Added passive detection system that gets more accurate the longer you
 detect an enemy
 -Detection system tracks enemies and ranges to them
 -Reload UI added to missile tubes
 -Each reload timer is tube based so it can change based on factors like
-crew efficency and type of missile
+crew efficiency and type of missile
 -Ships can be named from a list of names
 -Added UI to show how many railguns have LOS to target
--
 
 ###Changed
 -Ship names now don't duplicate
 -Reorganized blueprints
 -Upped railgun round speed
 -Shrunk crosshairs
--Made PDC and radar range more easily modifable
-
-
-
-###Bug-fixes
-
-###Removed
+-Made PDC and radar range more easily modifiable
 
 ==========================================================================
 
@@ -99,8 +131,6 @@ crew efficency and type of missile
 
 ###Bug-fixes
 -child actors now sit attached properly
-
-###Removed
 
 ==========================================================================
 
