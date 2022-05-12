@@ -1,161 +1,90 @@
-<!DOCTYPE HTML>
-<!--
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, inital-scale=1.0">
 		<title>Starlight Brigade</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
-		<div id="wrapper">
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="title">Starlight Brigade</a>
-						<nav>
-							<ul>
-								<li><a href="index.html" class="active">Home</a></li>
-								<li><a href="Demo.html">Demo</a></li>
-								<li><a href="PressKit.html">PressKit</a></li>
-							</ul>
-						</nav>
-					</header>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+   	<link
+     href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Roboto:wght@300;400&display=swap"
+     rel="stylesheet">
+   	<link rel="stylesheet" href="main.css">
+</head>
 
+<body>
+	<header class="bg-title text-center">
+		<div class="container container--narrow">
+			<h1>Starlight Brigade</h1>
+			<p>Made by J Newhart ("Spacemarine658")</p>
+		</div>
+	</header>
 
-				<!-- Wrapper -->
-					<div id="wrapper">
-
-						<!-- Main -->
-							<section id="main" class="wrapper">
-								<span class="image fit" style="margin-left:auto; margin-right:auto;width:50%;"><img src="images/pic04.jpg" alt="" /></span>
-								<div style="margin-top:auto;margin-left:auto; margin-right:auto;height:1000px;width:1200px;text-align:Center;border:1px solid#ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
-									<h2 class="minor">Current changelog for ver. 0.03 and previous</h2>
-									<p style = "margin-left:auto; white-space: pre; text-align:left;margin-right:auto;">#Changelog
-All notable changes to this project will be documented in this file
-
-The format is based on Keep a Changelog
-
-## 0.03 - 11/20/2021
-
-###Added
--Created basic UI layout
--Created basic Docking UI for refueling
--Added new missile type: Grazers
--Added ability for AI to chase player down
--Added ability for AI to follow patrol routes
--Added node system (needs expansion)
--Added vent system for Ships
--AI faces player with slight offset to make aiming at player easier
--Added AI railguns which can fire at the player
--Added AI railguns to a child blueprint for testing
--Integrated Linux toolchain into workflow so that Linux can be officially supported
--Added the ability for AI to fire missiles at Player
--Added fuel limits to missiles
--Added fuel system to player's ship
-
-###Changed
--AI now return to patrol if they had one if they lose track of player for long enough
--Missiles can now switch from component targeting to targeting hull if no components exist
--Reworked detection time to include thermal output so a powered down ship could more easily slip by an enemy ship undetected
--Debris of destroyed ships now faces the direction it the ship was originally facing
--Updated Unreal engine to 4.27
--Player can now take damage from AI Missiles
--Reworked fuel burning (will need more balancing)
--Smoothed braking
--Reworked missile intelligence
-
-###Bug-fixes
--Bug #6: Venting while thrusting would speed up venting has been fixed
--Bug #5: PDC will no longer shoot through their host ship to kill Missiles
--Bug #4: Missiles were throwing error after changes to AI ships were made now working correctly
--Bug #3: Attempting to fire missiles while reloading no longer breaks the cycle
--Bug #2: Bug causing player to be unable to fire while braked and at a stop fixed
-
-==========================================================================
-
-## 0.02 - 10/18/2021
-
-###Added
--Ship systems now rely on working nodes which can be turned on and off
--Keys are now set in bindings instead of hardcoded this will make changing
-key bindings easier
--Added passive detection system that gets more accurate the longer you
-detect an enemy
--Detection system tracks enemies and ranges to them
--Reload UI added to missile tubes
--Each reload timer is tube based so it can change based on factors like
-crew efficiency and type of missile
--Ships can be named from a list of names
--Added UI to show how many railguns have LOS to target
-
-###Changed
--Ship names now don't duplicate
--Reorganized blueprints
--Upped railgun round speed
--Shrunk crosshairs
--Made PDC and radar range more easily modifiable
-
-==========================================================================
-
-## 0.01 - 9/22/2021
-
-###Added
--Modelled missile tubes for player ship
--Added bridge view
--Added turrets to enemy targets
--Added remains when something is destroyed
--Added svg file to track file structure
--Modelled missiles
--Added ui to show combined velocity and braking
--Added ship movement
--added missile tubes
--missile tubes have basic anim
--Player ship inputs now locked to prevent collision with own missiles
--added railguns they track player mouse
--added rotational and directional impulse when railguns fire
-
-###Changed
--Turned turrets into child actor instead of spawning
--Turrets now track based on IFF
--Missiles can now target components
--Missiles use player velocity when launching
--Moved brakes to better binding
--Missiles avoid player when shot from player
--Missiles launch in salvos from tubes
--Reworked brakes to work more like engines
-
-###Bug-fixes
--child actors now sit attached properly
-
-==========================================================================
-
-
-									</p>
-								</div>
-								<div>
-									<iframe width="750" height="700" src="https://942aaa6f.sibforms.com/serve/MUIEAAPouRUT4nfnMARQq5vlTB5fNcMFCB0tv62fYahSFfSKmI5_pFf8MnUFnVSCFmbupA6zWgqbC_LmwlVh3s3TwarMt_OxFwG5NdUSSyKY8Xg7yqfxzZoFvArZq-zdy9X4f-h17IEgTFlkuuRpr7-5RhKc9RJ2RVsjDn98tDuWg33QfxODvzuIn72egu6mck_OHIt2f3WN2gVs" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe>
-								</div>
-			</section>
-</div>
-			<!-- Footer -->
-				<footer id="footer" class="wrapper alt">
-					<div class="inner" style="margin-left:auto; margin-right:auto;text-align:Center;">
-						<ul class="menu">
-							<li>
-								<a href="PressKit.html" class="title">Press-Kit</a>
-							</li>
-							<li>&copy; Starlight Brigade. All rights reserved.</li>
-						</ul>
-					</div>
-
-
-
-				</footer>
+<section class="bg-game">
+	<div class="container">
+		<h2 class="text-center">About the Game</h2>
+		<div class="split">
+			<div>
+				<p>
+					<br>Command your Light Cruiser in real-time space warfare, using physics, advanced battle tactics, or surprise your enemies by ambushing them from a stealthy position. <br><br>Traverse the Neptunian system collecting all the resources you need to repair your aging vessel, and rebuild what humanity has left. Guerilla tactics will be your ally in this shooting war, but when all your plans fall apart you must above all, survive contact with the enemy.
+				</p>
+				<p>
+					Starlight brigade will be available for $14.99 on Steam. With builds for both Windows and Linux with a release date of: December 2023
+				</p>
 			</div>
-	</body>
+			<div>
+				<iframe width="750" height="700" src="https://942aaa6f.sibforms.com/serve/MUIEAAPouRUT4nfnMARQq5vlTB5fNcMFCB0tv62fYahSFfSKmI5_pFf8MnUFnVSCFmbupA6zWgqbC_LmwlVh3s3TwarMt_OxFwG5NdUSSyKY8Xg7yqfxzZoFvArZq-zdy9X4f-h17IEgTFlkuuRpr7-5RhKc9RJ2RVsjDn98tDuWg33QfxODvzuIn72egu6mck_OHIt2f3WN2gVs" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="bg-details">
+	<div class="container">
+		<div class="split">
+			<div>
+				<h2>Quick Facts</h2>
+				<p>	Developer:<br>
+					J Newhart<br>
+					Based in:<br>
+					Texas, United States<br>
+					Press/Business Contact:<br>
+					starlightbrigadedev@gmail.com<br>
+					Social links:<br></p>
+			</div>
+			<div>
+				<img src="Images/Screenshot_1.png" alt="">
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="bg-about">
+	<div class="container">
+		<div class="split">
+			<div>
+				<img src="Images/Screenshot_2.png" alt="">
+			</div>
+			<div>
+				<h2>How to support Starlight's development</h2>
+				<p>You can go to patreon and support not only the game but myself as well!<br><a href="https://www.patreon.com/Spacemarine658">Patreon</a></p>
+			</div>
+		</div>
+		
+	</div>
+</section>
+<!-- Footer -->
+<footer id="footer" class="bg-about">
+	<div class="container">
+		<div class="text-center">
+			<a href="PressKit.html" class="title">Press-Kit</a>
+			<p>&copy; Starlight Brigade. All rights reserved.</p>
+		</div>
+		
+	</div>
+
+
+
+</footer>
+
+</body>
 </html>
