@@ -203,7 +203,7 @@ a {
   color: blue;
 }
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 h1 > a {
   display: inline-block;
