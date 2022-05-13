@@ -8,7 +8,20 @@
    	<link
      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Roboto:wght@300;400&display=swap"
      rel="stylesheet">
+	 
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  	<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
    	<link rel="stylesheet" href="main.css">
+	
+	<script src="backend.js"></script>
+
+
+	<script>
+	$.get('/changelog.txt', function(data) {
+   		parseChangelog(data);
+	}, 'text');
+	</script>
 </head>
 
 <body>
@@ -37,6 +50,8 @@
 		</div>
 	</div>
 </section>
+
+
 
 <section class="bg-details">
 	<div class="container">
@@ -72,6 +87,15 @@
 		
 	</div>
 </section>
+
+<section class="bg-game">
+	<div class="container">
+		<h3 style="font-family: var(--ff-primary);">Starlight Brigade Full Changelog</h3>
+		<div id="accordion">
+	  	</div>
+	</div>
+</section>
+
 <!-- Footer -->
 <footer id="footer" class="bg-about">
 	<div class="container">

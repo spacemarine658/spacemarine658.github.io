@@ -213,3 +213,16 @@ a:visited {
   text-decoration: none; 
   color: none; 
  }
+
+ #accordion .ui-accordion-content
+ {
+   background-color: var(--clr-primary-400);
+   color: var(--clr-primary-200);
+   width: 100%;
+ }
+
+ #accordion .ui-accordion-header {
+  background-color: var(--clr-primary-200);
+  color: var(--clr-primary-400);
+  margin: 0px;
+}
