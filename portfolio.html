@@ -1,119 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, inital-scale=1.0">
-		<title>Starlight Brigade</title>
-		<link rel="preconnect" href="https://fonts.gstatic.com">
-   	<link
-     href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Roboto:wght@300;400&display=swap"
-     rel="stylesheet">
-	 
-	<link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
-	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-  	<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
-   	<link rel="stylesheet" href="main.css">
-	
-	<script src="backend.js"></script>
-
-
-	<script>
-	$.get('/changelog.txt', function(data) {
-   		parseChangelog(data);
-	}, 'text');
-	</script>
+  <title>J Newhart</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- linking css file -->
+  <link rel="stylesheet" href="main.css">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-	<header class="bg-game text-center">
-		<div class="container container--narrow">
-			<h1 class="bg-title">J Newhart</h1>
-			<p class="bg-title" style="color: white;">UI/UX Designer</p>
-		</div>
-	</header>
-
-<section class="bg-game">
-	<div class="container">
-		<h2 class="text-center bg-title">Who am I?</h2>
-		<div>
-			<div class="bg-game split">
-                <div>
-				    I’m passionate about creating reliable, usable, and featureful digital products, especially games. I have worked with many incredibly talented people across a lot of different fields as well as companies to create powerful, flexiable tools.
-                        <p>	<br>Quick fact sheet:<br>
-                            J Newhart<br>
-                            Based in:
-                            Burleson, Texas, United States<br>
-                            Press/Business Contact:<br>
-                            starlightbrigadedev@gmail.com<br>
-                </div>
-                <div>
-                I'm a self-starter college graduate designer crafting simple and effective solutions for complex systems. Currently, I'm working as a UI/UX designer for a rapidly growing Internet Service Provider, helping different product teams to build enjoyable user experiences. <br><br>I also love working on my indie game in my free time. I got into UI/UX after working on my own game I found myself enjoying working on UI. I applied for the position within my employer and got the position! I think the future of gaming depends on great UI/UX.
-                </div>
-			</div><br><br>
-            <h2 class="text-center bg-title">Where can you see more of me?</h2>
-			<div class="split" style="text-align: center; padding-left: 35%;">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll navbarDark">
+        <div class="container">
+            <a class="navbar-brand" href="#">J</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                </ul>
                 
-                <div style="text-align:center;">
-					Social links:
-                    <center><a href="https://www.linkedin.com/in/j-newhart-a3997975/">
-                        <img alt="Linkedin" src="/download (2).png" width="50" height="50"></center>
-                    
-                    
-                    </a>
-                    <br>
-                    <center><a href="https://www.artstation.com/jedwardnewhart">
-                        <img alt="Artstation" src="/logo-artstation-horizontal-cbbe936e68623842ca878651bfd9ceb3.png" width="100" height="50"></center>
-                    
-                    </div>
-                </p>
-			</div>
-            
             </div>
-		</div>
-        
-</section>
+        </div>
+    </nav>
+    <!-- main banner -->
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="hero_title">Hi, it's me J</h2>
+                <p class="hero_desc">I am a professional UI/UX Designer in Texas!</p>
+            </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- about section-->
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">About Me</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="images/heroImage.jpeg" class= "imageAboutPage" alt="">
+                </div>
 
-<section class="bg-details">
-    
-	<div class="container">
-        <h2 class="text-center" style="color: white;">A few bits of my most recent works!</h2><br>
-		<div class="split">
-				<img src="/Custom Size – 1.png" alt="UI Design example">
-		</div>
-	</div>
-</section>
+                <div class="col-lg-8">
+                    <p> I'm an avid gamer, I'm an even more avid UI/UX Designer. I help build experiences for players through intuitive thoughtful design. When I'm not working on games, you can find me gaming, camping, or even making YouTube videos! I have done a little bit of everything related to game development from 3d modeling, lighting, texturing, gameplay programming, VFX, and audio sheesh!
+                        
+                    </p>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Name: J Newhart</li>
+                                <li>Age: 27</li>
+                                <li>Occupation: UI/UX designer</li>
 
-<section class="bg-game">
-	<div class="container">
-		<div class="split">
-				<img src="/Create an appointment – 2.png" alt="UI Design example">
-		</div>
-	</div>
-</section>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
 
-<section class="bg-about">
-	<div class="container">
-		<div class="split">
-			<div>
-				<img src="Images/Screenshot_1.png" alt="Game Design Example">
-			</div>
-		</div>
-		
-	</div>
-</section>
+    <!-- portfolio section-->
+    <section id="portfolio">
+        <div class="container mt-3">
+            <h1 class="text-center">Portfolio</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/Screenshot_1.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Starlight Brigade</h4>
+                            <p class="card-text">This is a solo project built from the ground up in Unreal. It is still a work in progress.</p>
+                            <!--<div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>-->
+                        </div>
+                    </div>
+                </div>
 
-<!-- Footer -->
-<footer id="footer" class="bg-about">
-	<div class="container">
-		<div class="text-center">
-			
-		</div>
-		
-	</div>
+            </div>
+    </section>
 
+    <!-- footer section-->
+    <footer id="footer">
+        <div class="container-fluid">
+            <!-- social media icons -->
+            <div class="social-icons mt-4">
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
 
+    <!-- load javascript after loading all html content -->
+    <script src="backend.js"></script>
 
-</footer>
 </body>
+
 </html>
