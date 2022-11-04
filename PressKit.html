@@ -1,72 +1,128 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Starlight Brigade</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- linking css file -->
+  <link rel="stylesheet" href="main.css">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+</head>
 
-<html>
-	<head>
-		<title>Starlight Brigade Press Kit</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<script src="https://kit.fontawesome.com/4422dc3d75.js" crossorigin="anonymous"></script>
-	</head>
-	<body class="bg-game">
-			<section>
-				<div class="container bg-title">
-					<br>
-					<h2 class="text-center">Request a review copy of the game!</h2>
-					<div class="text-center"><h3></h3></div>
-					<div class="split bg-about">
-						<br>
-						<div class="container">
-							<br>
-							<form method="post" action="https://formspree.io/f/mvodlrqz">
-								<div class="container">
-									
-									<div class="container">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="container">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
-									</div>
-									<br>
-									<div class="container">
-										<a href="" class="button" style="float: right;">Request</a>
-									</div>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll navbarDark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Presskit</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Support Development</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    <!-- main banner -->
+    <section class="bgimage2" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="hero_title">Starlight Brigade</h2>
+                <p class="hero_desc">Command your Light Cruiser in real-time space warfare, using physics, advanced battle tactics, or surprise your enemies by ambushing them from a stealthy position. 
+				</p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section-->
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">About Me</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="images/heroImage.jpeg" class= "imageAboutPage" alt="">
+                </div>
+
+                <div class="col-lg-8">
+                    <p> I'm an avid gamer, I'm an even more avid UI/UX Designer. I help build experiences for players through intuitive thoughtful design. When I'm not working on games, you can find me gaming, camping, or even making YouTube videos! I have done a little bit of everything related to game development from 3d modeling, lighting, texturing, gameplay programming, VFX, and audio sheesh!
+                        
+                    </p>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+							<h2>Quick Facts</h2>
+                            <ul>
+                                
+							<li>Developer:</li>
+							<li>J Newhart</li>
+							<li>Based in:</li>
+							<li>Texas, United States</li>
+							<li>Press/Business Contact:</li>
+							<li>starlightbrigadedev@gmail.com</li>
+							<li>Social links:</li>
+							<div class="container-fluid">
+								<!-- social media icons -->
+								<div class="social-icons mt-4">
+									<a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+									<a href="https://www.youtube.com/spacemarine658" target="_blank"><i class="fab fa-youtube"></i></a>
+									<a href="https://twitter.com/j_newhart" target="_blank"><i class="fab fa-twitter"></i></a>
 								</div>
-							</form>
-						</div>
-						<div class="container">
-							<br>
-							<br>
-							<h2>Email:</h2>
-							<h2>Starlightbrigadedev@gmail.com</h2>
-							<h2>Social:</h2>
-							<a href="https://twitter.com/j_newhart" <i class="fa-brands fa-twitter fa-6x" style="color: #1DA1F2;"></i></a>
-							
-							<a href="https://www.youtube.com/channel/UC0wsWmEHhv-PddR5rE5bhvA" <i class="fa-brands fa-youtube fa-6x" style="color: red;"></i></a>
-							<br>
-							<br>
-							<br>
-						</div>
-					</div>
-				</div>
-				<!-- Footer -->
-				<footer class="bg-title container">
-					<div class="container text-center">
-						<br>
-						<h3>Any and all material on this page is free to use by any and all press or other persons for any purposes pertaining to news and/or coverage of this game including complete copies of the webpage or anything herein.</h3>
-						<br>
-					</div>
-					<div class="bg-about">
-						<div class="text-center">
-							<a href="index.html" class="title">Home</a>
-							<p>&copy; Starlight Brigade. All rights reserved.</p>
-						</div>
-						
-					</div>
-				</footer>
-			</section>
-	</body>
+							</div>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- portfolio section-->
+    <section id="portfolio">
+        <div class="container mt-3">
+            <h1 class="text-center">How to support the development of Starlight Brigade</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/Digital-Patreon-Logo_FieryCoral.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Patreon</h4>
+                            <p class="card-text">You can go to patreon and support not only the game but myself as well!</p>
+                            <div class="text-center">
+                                <a href="https://www.patreon.com/Spacemarine658" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+
+    <!-- footer section-->
+    <footer id="footer">
+        <div class="container-fluid">
+            <!-- social media icons -->
+            <div class="social-icons-text mt-4">
+                <p>Any and all elements on this page maybe used for the purposes of reporting, coverage, or reviews in any capacity.<br>
+				&copy; Starlight Brigade. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- load javascript after loading all html content -->
+    <script src="backend.js"></script>
+</body>
 </html>
