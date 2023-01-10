@@ -34,11 +34,11 @@
 }
 
 /* spacing on all sections */
- #about, #services, #portfolio, #contact {
-  margin-top: 4rem;
-  padding-top: 4rem;
+ #about, #blog, #portfolio {
+  margin-top: 2rem;
+  padding-top: 2rem;
 } 
-#contact {
+#portfolio {
   padding-bottom: 4rem;
 }
 /* about section image css */
@@ -95,6 +95,7 @@
   top:-100px;
   
 }
+
 html,
 body {
   width: 100%;
